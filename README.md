@@ -1,6 +1,6 @@
 # FPro Blinking-LED MMIO Core
 
-This project implements a custom hardware peripheral for the FPro System-on-a-Chip (SoC). The core controls four discrete LEDs with blinking intervals that are independently programmable by the MicroBlaze processor in real-time using the slide switches on the FPGA board.
+This project implements a custom hardware peripheral for the FPro System-on-a-Chip (SoC). The core controls four discrete LEDs with blinking intervals on the MicroBlaze processor.
 
 **Demo Video:** [https://youtu.be/nSGeWkoQvVM](https://youtu.be/nSGeWkoQvVM)
 
