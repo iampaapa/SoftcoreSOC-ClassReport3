@@ -28,7 +28,7 @@ First, we'll synthesize the hardware design and create a hardware definition fil
       * Go to **IP Catalog** and add the **MicroBlaze MCS** IP.
       * Name it `cpu`, set memory to **128KB**, and check **Enable IO Bus**. Generate the IP.
 4.  **Add Constraints**:
-      * Right-click **Constraints** and select **Add Sources...**.
+      * Right-click **Constraints** and select **Add Sources**.
       * Add the `Nexsys4DDR_chu.xdc` file from the `hdl/constraint/` directory.
 5.  **Generate Bitstream**: In the **Flow Navigator**, click **Generate Bitstream**. Vivado will synthesize and implement the design.
 6.  **Export Hardware**:
@@ -44,7 +44,7 @@ Next, we'll create the software application and driver to run on the processor.
 
 1.  **Launch Vitis**: Open the Vitis IDE.
 2.  **Create Platform Project**:
-      * Go to **File → New → Platform Project...**.
+      * Go to **File → New → Platform Project**.
       * Name the project (e.g., `blinking_led_platform`).
       * Select **Create from hardware specification (XSA)** and browse to the `.xsa` file you exported from Vivado.
       * Build the platform project by clicking the hammer icon.
